@@ -1,4 +1,4 @@
 # FallingClock
 Digital clock whose segments fall into and out of the clock
 
-You can see it working by going [here](file:///C:/Users/matth/Documents/Programming%20Projects/FallingClock/index.html)
+You can see it working by going [here](https://htmlpreview.github.io/?https://github.com/mdzirbel/FallingClock/blob/main/index.html)
