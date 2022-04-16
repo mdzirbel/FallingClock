@@ -20,10 +20,10 @@ const
 
 	movingTime = 300
 
-	secondsUsed = 3
-	secondsUpcoming = 3
+	secondsUsed = 8
+	secondsUpcoming = 8
 
-	fps = 50
+	fps = 40
 
 const segmentsForChar = {
 	"0": [0, 1, 2,    4, 5, 6],

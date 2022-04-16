@@ -130,8 +130,13 @@ function getSegmentsFromTime(offset) {
 function getFormattedTime(offset) {
 	let time = new Date(new Date().getTime() + (offset * 1000))
 
+	let hours = time.getHours()
+	if (hours === 0) {
+		hours = 12
+	}
+
 	return { 
-		hour: time.getHours().toString(),
+		hour: hours.toString(),
 		minute: time.getMinutes().toString().padStart(2, "0"),
 		second: time.getSeconds().toString().padStart(2, "0")
 	}
